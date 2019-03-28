@@ -3,7 +3,7 @@ from datetime import datetime
 
 endpoint #this is the part where the url is
 
-def addRecipe(name, date_added, date_modified, ingredients = "no ingredients set", instructions = " no instructions set", serving_size = " no serving size set", 
+def addRecipe(name, ingredients = "no ingredients set", instructions = " no instructions set", serving_size = " no serving size set", 
 	category = "no category set", notes = "no notes set")
 	currentRecipe = {}
 	currentRecipe["name"]=name
