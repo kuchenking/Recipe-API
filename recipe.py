@@ -21,7 +21,7 @@ def deleteRecipe(name)
 	r = req.delete(endpoint, {"name":name})
 	checkCode(r)
 
-def listRecipies()
+def listRecipes()
 	r = req.get(endpoint)
 	checkCode(r)
 
